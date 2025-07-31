@@ -1,0 +1,44 @@
+/* stylesheet for landing page */
+.hero {
+    background-color: #1F2937;
+    font: Roboto;
+}
+
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.headerLinks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1em;
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+.subHeader {
+    display: flex;
+    flex-direction: row;
+    font-size: 48px;
+/*    font-family: Roboto; look in why this isn't working A */
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.secondarytext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.my_button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 6px;
+}
